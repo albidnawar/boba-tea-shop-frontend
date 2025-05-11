@@ -21,6 +21,7 @@
           colors: {
             primary: '#FF0000',
             secondary: '#FF8938',
+            'gradient': 'linear-gradient(to right, #FF0000, #FF8938)',
           },
         },
       },
@@ -37,8 +38,8 @@
 <body class="font-manrope">
   <!-- header -->
   <header class="container mx-auto">
-    <div class="hero ">
-      <div class="hero-content flex-col lg:flex-row">
+    <div class="">
+      <div class="flex justify-between mx-24 my-24 flex-col lg:flex-row ">
 
         <div>
           <h1 class="text-7xl font-extrabold font-manrope leading-[100px]">It's good <br>
@@ -211,9 +212,9 @@
             <h1 class="card-title font-bold">Collecting 8 points for <br> discount</h1>
             <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
             <h1 class="font-bold">Learn More</h1>
-            
+
+          </div>
         </div>
-      </div>
         <!-- news02 -->
         <div class="card bg-base-100 w-96 shadow-sm border-1 border-gray-200 w-sm">
           <figure class="mt-5">
@@ -224,11 +225,11 @@
             <h1 class="card-title font-bold">Collecting 8 points for <br> discount</h1>
             <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
             <h1 class="font-bold">Learn More</h1>
-            
+
+          </div>
         </div>
-      </div>
-      <!-- news03 -->
-      <div class="card bg-base-100 w-96 shadow-sm border-1 border-gray-200 w-sm">
+        <!-- news03 -->
+        <div class="card bg-base-100 w-96 shadow-sm border-1 border-gray-200 w-sm">
           <figure class="mt-5">
             <img src="images/news-3.png" alt="news1" />
           </figure>
@@ -237,17 +238,61 @@
             <h1 class="card-title font-bold">Collecting 8 points for <br> discount</h1>
             <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
             <h1 class="font-bold">Learn More</h1>
-            
+
+          </div>
         </div>
-      </div>
       </div>
       </div>
     </section>
   </main>
   <!-- footer -->
-  <footer>
 
+  <footer class="bg-linear-65 from-[#ff883812] to-[#ff000027] text-base-content px-50 py-10">
+    <div class="flex justify-between my-10">
+      <img src="images/cup.png" alt="">
+      <p>
+        <span>Ready to get strated?</span>
+        <button class="btn  bg-linear-to-r from-orange-400 to-orange-700 text-white">Get Started</button>
+    </div>
+    <div class="footer sm:footer-horizontal ">
+      <nav>
+        <h6 class="footer-title">Services</h6>
+        </p>
+
+        <a class="link link-hover">Branding</a>
+        <a class="link link-hover">Design</a>
+        <a class="link link-hover">Marketing</a>
+        <a class="link link-hover">Advertisement</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Company</h6>
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title">Legal</h6>
+        <a class="link link-hover">Terms of use</a>
+        <a class="link link-hover">Privacy policy</a>
+        <a class="link link-hover">Cookie policy</a>
+      </nav>
+      <form>
+        <h6 class="footer-title">Newsletter</h6>
+        <fieldset class="w-80">
+          <label>Enter your email address</label>
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class=" bg-transparent  border-t-0 border-l-0 border-r-0 border-b-2 py-2 border-black outline-none" />
+            <button class="btn text-white bg-linear-to-r from-orange-400 to-orange-700 rounded-full w-[32px] h-[32px]"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="text-center mt-10">
+      <p>Copyright © 2025 - All right reserved by Albid Nawar</p>
+    </div>
   </footer>
+
 </body>
 
 </html>
